@@ -1,6 +1,5 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage":"http://aldermanaxe.github.com/webtest",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -15,9 +14,7 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
     "react-native-barcode": "^0.2.2",
     "react-native-barcode-builder": "^1.0.5",
-    "react-native-web": "^0.11.7",
-    "deploy": "gh-pages -d web-build",
-    "predeploy": "expo build:web"
+    "react-native-web": "^0.11.7"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.1.0"
